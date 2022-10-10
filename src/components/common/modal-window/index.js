@@ -1,0 +1,1 @@
+export { createModalWindow } from './modal-window'

@@ -1,0 +1,76 @@
+.ticket {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(208, 206, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.ticket-title {
+    word-wrap: break-word;
+    font-family: sans-serif;
+    margin-left: 10px;
+    width: 170px;
+    border: 2px solid rgb(66, 105, 99);
+    background-color: rgb(199, 228, 252);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.ticket-description {
+    word-wrap: break-word;
+    font-family: sans-serif;
+    margin-left: 10px;
+    width: 230px;
+    border: 2px solid rgb(66, 105, 99);
+    background-color: rgb(199, 228, 252);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 70px;
+    padding: 5px;
+}
+
+.ticket-user {
+    word-wrap: break-word;
+    font-family: sans-serif;
+    margin-left: 10px;
+    width: 180px;
+    border: 2px solid rgb(66, 105, 99);
+    background-color: rgb(246, 194, 254);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ticket-text {
+    font-family: sans-serif;
+    margin-left: 10px;
+    border: 2px solid red;
+}
+
+.ticket-time {
+    position: absolute;
+    left: 300px;
+    top: 120px;
+}
+
+.ticket-block-button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    width: 140px;
+    top: 10px;
+    left: 200px;
+}
