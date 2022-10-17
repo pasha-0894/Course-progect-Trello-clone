@@ -1,1 +1,0 @@
-export { createAppElement } from './app'
